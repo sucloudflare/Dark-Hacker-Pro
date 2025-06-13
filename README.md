@@ -44,7 +44,7 @@ sudo apt install nmap python3-tk</code></pre>
         <p><strong>Kali Linux:</strong></p>
         <pre><code>sudo apt install python3-tk</code></pre>
         <p><strong>Dependências Python Adicionais (se necessário):</strong></p>
-        <pre><code>pip install --break-system-packages python-nmap notify2 dbus-python</code></pre>
+        <pre><code>pip install --break-system-packages python-nmap notify2 dbus-python && pip install --break-system-packages ttkthemes </code></pre>
 
    <h3>5. Configure Permissões</h3>
         <pre><code>sudo ./venv/bin/python app_dark_hackerpro.py</code></pre>

@@ -106,9 +106,9 @@ sudo ./venv/bin/python app_dark_hackerpro.py</code></pre>
    <hr>
 
 
-## Se Travar na analise de TCP
+# Se travar na analise de TCP
 
-Possíveis Causas
+### Possíveis Causas
 <br>
 ### Dispositivo Ativo com Resposta Lenta:
 O dispositivo no IP 192.168.10.100 pode estar ativo, mas respondendo lentamente devido a alta carga, firewall ativo, ou configuração de portas que exige mais tempo para análise pelo Nmap.

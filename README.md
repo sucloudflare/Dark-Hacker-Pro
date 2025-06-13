@@ -105,4 +105,23 @@ sudo ./venv/bin/python app_dark_hackerpro.py</code></pre>
 
    <hr>
 
+
+## Se Travar na analise de TCP
+
+Possíveis Causas
+<br>
+### Dispositivo Ativo com Resposta Lenta:
+O dispositivo no IP 192.168.10.100 pode estar ativo, mas respondendo lentamente devido a alta carga, firewall ativo, ou configuração de portas que exige mais tempo para análise pelo Nmap.
+### Firewall ou Filtragem:
+Um firewall no dispositivo ou na rede pode estar bloqueando ou retardando as requisições de varredura de portas, fazendo com que o Nmap espere por respostas (timeout).
+### Portas em Estado Intermediário:
+Se o dispositivo tem portas em estado "filtered" ou "closed" que requerem mais tentativas de conexão, o escaneamento pode demorar mais.
+### Problema de Conexão:
+Pode haver instabilidade na conexão com esse IP específico, como latência ou perda de pacotes, afetando apenas esse dispositivo.
+### Configuração do Nmap:
+A varredura padrão (1-1024) pode estar configurada com parâmetros que não são otimizados para esse dispositivo, causando atrasos.
+
+
+
+
   <p style="font-size: small;">Última atualização: 13/06/2025 - 19:50 (-03)</p>

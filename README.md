@@ -24,8 +24,8 @@
   <div class="section">
         <h2>Instalação</h2>
         <h3>1. Clone o Repositório</h3>
-        <pre><code>git clone https://github.com/seu-usuario/dark-hacker-pro.git
-cd dark-hacker-pro</code></pre>
+        <pre><code>git clone https://github.com/sucloudflare/Dark-Hacker-Pro.git
+cd Dark-Hacker-Pro</code></pre>
 
    <h3>2. Crie um Ambiente Virtual</h3>
         <pre><code>python3 -m venv venv

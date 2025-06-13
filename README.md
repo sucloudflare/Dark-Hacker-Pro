@@ -3,7 +3,7 @@
     Bem-vindo ao <strong>Dark Hacker Pro v6.0</strong>, uma ferramenta de escaneamento de rede desenvolvida para monitorar dispositivos em uma rede local, detectar vulnerabilidades e alertar sobre possíveis intrusões. Este projeto utiliza <strong>Python</strong> com bibliotecas como <strong>Scapy, Nmap e SQLAlchemy</strong> para fornecer uma interface gráfica interativa.
 </p>
 
-## DEIXE UMA ESTRELA NELE PARA AJUDAR ELE A CRESCER!
+## DEIXE UMA ESTRELA NESSE PRJETO PARA AJUDAR ELE A CRESCER!
 
 <div class="section">
     <h2>Descrição</h2>
